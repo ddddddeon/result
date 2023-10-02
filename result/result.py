@@ -1,5 +1,5 @@
 class Result:
-    __match_args__ = "value"
+    __match_args__ = ("value",)
 
     def __init__(self, value):
         self.value = value
